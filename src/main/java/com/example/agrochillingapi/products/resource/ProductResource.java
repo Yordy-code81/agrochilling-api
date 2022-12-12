@@ -1,5 +1,6 @@
 package com.example.agrochillingapi.products.resource;
 
+import com.example.agrochillingapi.sellers.domain.model.entity.Seller;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,4 +14,5 @@ public class ProductResource {
     private String type;
     private String image;
     private Double price;
+    private Long sellerId;
 }
